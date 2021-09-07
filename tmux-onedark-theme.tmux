@@ -10,6 +10,7 @@ onedark_comment_grey="#697098"
 
 palenight_darkblue="#081633"
 palenight_purple="#c792ea"
+magenta="#d16d9e"
 
 get() {
    local option=$1
@@ -61,8 +62,8 @@ setw "window-status-activity-attr" "none"
 
 setw "window-status-separator" ""
 
-set "window-style" "fg=$onedark_comment_grey"
-set "window-active-style" "fg=$onedark_white"
+set "window-style" "fg=$magenta"
+set "window-active-style" "fg=$palenight_darkblue"
 
 set "pane-border-fg" "$onedark_white"
 set "pane-border-bg" "$onedark_black"
