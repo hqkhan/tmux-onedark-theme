@@ -84,5 +84,5 @@ set "@prefix_highlight_output_prefix" "  "
 set "status-right" "#[fg=$palenight_darkblue,bg=$onedark_black,nobold,nounderscore,noitalics]#[fg=$palenight_purple,bg=$palenight_darkblue,bold] $USER@#H "
 set "status-left" "#[fg=$palenight_purple,bg=$palenight_darkblue,bold] #S #{prefix_highlight}#[fg=$palenight_darkblue,bg=$onedark_black,nobold,nounderscore,noitalics]"
 
-set "window-status-format" "#[fg=$onedark_black,bg=$magenta,nobold,nounderscore,noitalics]#[fg=$onedark_white,bg=$onedark_black] #I  #W #[fg=$magenta,bg=$onedark_black,nobold,nounderscore,noitalics]"
-set "window-status-current-format" "#[fg=$onedark_black,bg=$onedark_visual_grey,nobold,nounderscore,noitalics]#[fg=$palenight_darkblue,bg=$magenta,nobold] #I  #W #[fg=$onedark_visual_grey,bg=$onedark_black,nobold,nounderscore,noitalics]"
+set "window-status-format" "#[fg=$onedark_black,bg=$onedark_black,nobold,nounderscore,noitalics]#[fg=$onedark_white,bg=$onedark_black] #I  #W #[fg=$onedark_black,bg=$onedark_black,nobold,nounderscore,noitalics]"
+set "window-status-current-format" "#[fg=$onedark_black,bg=$magenta,nobold,nounderscore,noitalics]#[fg=$palenight_darkblue,bg=$magenta,bold] #I  #W #[fg=$magenta,bg=$onedark_black,nobold,nounderscore,noitalics]"
