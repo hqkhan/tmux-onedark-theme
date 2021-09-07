@@ -1,12 +1,12 @@
 #!/bin/bash
-onedark_black="#282c34"
-onedark_blue="#61afef"
-onedark_yellow="#e5c07b"
-onedark_red="#e06c75"
-onedark_white="#aab2bf"
-onedark_green="#98c379"
-onedark_visual_grey="#3e4452"
-onedark_comment_grey="#5c6370"
+onedark_black="#292D3E"
+onedark_blue="#82b1ff"
+onedark_yellow="#ffcb6b"
+onedark_red="#ff5370"
+onedark_white="#bfc7d5"
+onedark_green="#C3E88D"
+onedark_visual_grey="#3E4452"
+onedark_comment_grey="#697098"
 
 get() {
    local option=$1
