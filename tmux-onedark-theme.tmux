@@ -43,6 +43,11 @@ set "status-left-length" "100"
 set "status-right-length" "100"
 set "status-right-attr" "none"
 
+set "copy-mode-current-match-style" "fg=$onedark_black,bg=$onedark_red"
+set "copy-mode-match-style" "fg=$onedark_black,bg=$onedark_green"
+set "copy-mode-mark-style" "fg=$onedark_black,bg=$onedark_red"
+set "ccolour" "bg=$onedark_black"
+
 set "message-fg" "$onedark_white"
 set "message-bg" "$onedark_black"
 
